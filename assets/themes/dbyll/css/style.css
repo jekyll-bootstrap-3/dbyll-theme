@@ -47,6 +47,11 @@ article a:hover { color: #2c3e50; text-decoration: none; }
 	letter-spacing: 3px;
 }
 
-h1,h2,h3,h4,h5,h6{ font-family: 'Ubuntu', sans-serif; }
+h1,h2,h3,h4,h5,h6{ font-family: 'Ubuntu', sans-serif; color: #f2756a; }
 h1 a,h2 a,h3 a,h4 a{ color: #f2756a; }
 h1 a:hover,h2 a:hover,h3 a:hover,h4 a:hover{ color: #e74c3c; }
+
+footer {
+	padding-top: 15px;
+	font-family: 'Ubuntu';
+}
