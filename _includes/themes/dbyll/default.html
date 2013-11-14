@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+{% include themes/dbyll/header.html %}
+
+	<body>
+
+		<div class="col-sm-3 sidebar">
+			{% include themes/dbyll/sidebar.html %}
+		</div>
+
+		<div class="col-sm-9 col-sm-offset-3">
+			{{ content }}
+
+			{% include themes/dbyll/footer.html %}
+
+		</div>
+
+	{% include JB/analytics %}
+	<script type="text/javascript" src="{{ ASSET_PATH }}/resources/jquery/jquery.min.js"></script>
+	<script type="text/javascript" src="{{ ASSET_PATH }}/resources/bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="{{ ASSET_PATH }}/js/app.js"></script>
+	</body>
+
+</html>
+
