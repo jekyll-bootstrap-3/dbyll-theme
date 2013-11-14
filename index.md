@@ -18,18 +18,19 @@ tagline:
 ## Configuration
 In your config file add these
 <pre>
-    <code>
-      name : Your website's name
-      email : your e-mail address
-      github : github_account
-      twitter : twitter_account
-      pinterest: pinterest_account
-      linkedin: linkedin_account
-      resume: link_to_resume_file
-      feedburner :
-      email_md5: md5_encoding_of_your_email_for_gravatar_image
-      bio: Your short bio, supports html
-    </code>
+<code>
+title: dbyll
+author:
+  name: dbyll
+  email: dbyll@ismaildemirbilek.com
+  github: asd123
+  twitter: asd123
+  pinterest: asd123
+  linkedin: asd123
+  resume: asd123
+  bio: Your stylish, minimalist theme!
+  email_md5: 726351295ec82e145928582f595aa3aa
+</code>
 </pre>
 
 
