@@ -3,6 +3,7 @@ layout: post
 category : lessons
 tagline: "Supporting tagline"
 tags : [intro, beginner, jekyll, tutorial]
+description: Introduction to popular statics site generator.
 ---
 {% include JB/setup %}
 
