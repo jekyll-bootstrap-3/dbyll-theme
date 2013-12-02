@@ -3,8 +3,8 @@ layout: post
 title: "Configuration"
 description: ""
 fullview: true
-category:
-tags: []
+category: Demo
+tags: [demo, config, dbyll]
 ---
 {% include JB/setup %}
 
