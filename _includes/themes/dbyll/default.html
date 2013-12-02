@@ -29,7 +29,7 @@
                     <i class="fa fa-envelope"></i>
                 </a>
                 {% endif %}
-                <a class="navbar-brand" href="{{ BASE_PATH }}">
+                <a class="navbar-brand" href="{% if BASE_PATH %}{{ BASE_PATH }}{% else %}/{% endif %}">
                     <img src="http://www.gravatar.com/avatar/{{site.author.email_md5}}?s=35" class="img-circle" />
                     {{ site.title }}
                 </a>
@@ -38,7 +38,7 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-            <li class="active"><a href="{% if BASE_PATH %}{{ BASE_PATH }}{% else %}">Home</a></li>
+            <li class="active"><a href="{% if BASE_PATH %}{{ BASE_PATH }}{% else %}/{% endif %}">Home</a></li>
             <li><a href="{{ BASE_PATH}}{{ site.JB.categories_path }}">Categories</a></li>
             <li><a href="{{ BASE_PATH}}{{ site.JB.tags_path }}">Tags</a></li>
             </ul>
@@ -51,7 +51,7 @@
              <i class="fa fa-bars"></i>
            </button>
            <ul class="dropdown-menu" role="menu">
-             <li><a href="{{ BASE_PATH}}"><i class="fa fa-home"></i> Home</a></li>
+             <li><a href="{% if BASE_PATH %}{{ BASE_PATH }}{% else %}/{% endif %}"><i class="fa fa-home"></i> Home</a></li>
              <li><a href="{{ BASE_PATH}}{{ site.JB.categories_path }}"><i class="fa fa-folder"></i> Categories</a></li>
              <li><a href="{{ BASE_PATH}}{{ site.JB.tags_path }}"><i class="fa fa-tags"></i> Tags</a></li>
                <li class="divider"></li>
