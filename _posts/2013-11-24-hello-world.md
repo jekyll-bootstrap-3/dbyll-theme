@@ -14,3 +14,8 @@ tags: [demo, config, dbyll]
 
 #### dbyll is on GitHub
 <a class="btn btn-default" href="https://github.com/jekyll-bs3/dbyll">Grab your copy now!</a>
+
+### Install with rake
+```bash
+rake theme:install git="https://github.com/jekyll-bs3/dbyll"
+```
