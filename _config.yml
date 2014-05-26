@@ -3,7 +3,8 @@
 permalink: /:title 
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
-pygments: true
+highlight: pygments
+markdown: kramdown
 
 paginate: 10 # pagination based on number of posts
 paginate_path: "page:num"
