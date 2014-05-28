@@ -1,7 +1,7 @@
 dbyll
 =====
 
-2 column stylish theme for jekyll-boostrap-3. Port of original [Dbyll theme for Jekyll](http://github.com/dbtek/dbyll).
+2 column stylish theme for jekyll-boostrap-3. Port of original [dbyll theme for Jekyll](http://github.com/dbtek/dbyll).
 
 Install
 =======
