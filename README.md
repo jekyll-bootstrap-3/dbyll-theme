@@ -1,9 +1,9 @@
 dbyll
 =====
 
-2 column stylish theme for jekyll-boostrap-3
+2 column stylish theme for jekyll-boostrap-3. Port of original [Dbyll theme for Jekyll](http://github.com/dbtek/dbyll).
 
-INSTALL
+Install
 =======
 
 Inside jekyll-bootstrap root directory, just run
@@ -14,8 +14,12 @@ $ rake theme:install git="https://github.com/jekyll-bs3/dbyll"
 </pre>
 
 **New to Jekyll?**  
-Visit [Jekyll-Bootstrap-3](http://ismaildemirbilek.com/jekyll-bootstrap-3/) for more info.
+Visit [Jekyll Bootstrap 3](http://github.com/dbtek/jekyll-bootstrap-3/) for more info.
   
-LICENSE
+License
 =======
 [MIT](http://opensource.org/licenses/MIT)
+
+Author
+======
+İsmail Demirbilek - [@dbtek](http://twitter.com/dbtek)
