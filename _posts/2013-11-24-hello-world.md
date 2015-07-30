@@ -13,9 +13,9 @@ tags: [demo, config, dbyll]
 **dbyll** is brought to you by **[dbtek](http://ismaildemirbilek.com)**. Open sourced under [MIT](http://opensource.org/licenses/MIT) license.
 
 #### dbyll is on GitHub
-<a class="btn btn-default" href="https://github.com/jekyll-bs3/dbyll">Grab your copy now!</a>
+<a class="btn btn-default" href="https://github.com/jekyll-bootstrap-3">Grab your copy now!</a>
 
 ### Install with rake
 ```bash
-rake theme:install git="https://github.com/jekyll-bs3/dbyll"
+rake theme:install git="https://github.com/jekyll-bootstrap-3/dbyll-theme"
 ```
