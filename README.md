@@ -7,13 +7,11 @@ Install
 =======
 
 Inside jekyll-bootstrap root directory, just run
-<pre>
-<code>
-$ rake theme:install git="https://github.com/jekyll-bs3/dbyll"
-</code>
-</pre>
+```bash
+$ rake theme:install git="https://github.com/jekyll-bootstrap-3/dbyll-theme"
+```
 
-**New to Jekyll?**  
+**New to Jekyll Bootstrap 3?**  
 Visit [Jekyll Bootstrap 3](http://github.com/dbtek/jekyll-bootstrap-3/) for more info.
   
 License
