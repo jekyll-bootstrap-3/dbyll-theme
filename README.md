@@ -11,8 +11,15 @@ Inside jekyll-bootstrap root directory, just run
 $ rake theme:install git="https://github.com/jekyll-bootstrap-3/dbyll-theme"
 ```
 
+Then add this with your email's md5 in _config.yml:  
+
+```yaml
+email_md5 : yourmd5
+```
+
 **New to Jekyll Bootstrap 3?**  
 Visit [Jekyll Bootstrap 3](http://github.com/dbtek/jekyll-bootstrap-3/) for more info.
+
   
 License
 =======
